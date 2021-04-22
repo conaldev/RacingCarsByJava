@@ -7,7 +7,7 @@ public class RacingCars {
     public static class Car implements Runnable {
         int DISTANCE = MainTest.DISTANCE;
         int STEP = MainTest.STEP;
-        private String name;
+        private final String name;
         public Car(String name) {
             this.name = name;
         }
